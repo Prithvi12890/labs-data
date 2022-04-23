@@ -1,0 +1,42 @@
+.Header{
+    margin: 5px;
+    padding: 5px;
+}
+
+.Header > ul{
+    display: flex;
+    list-style: none;
+    justify-content: right;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.Header > ul > li{
+    margin: 2px;
+}
+
+.LinkButton > a {
+    text-decoration: none;
+    padding: 2px 6px 2px 6px;
+    border: 2px solid black;
+    font-size: 20px;
+    color: rgb(0, 94, 255);
+}
+.LinkButton > a:hover{
+    background-color: antiquewhite;
+    color: black;
+}
+
+.Card{
+    background-repeat: no-repeat;
+    background-position: center; 
+    position: relative;
+    border: 2px solid black;
+    border-radius: 5%;
+    padding: 5px;
+    margin: 5px;
+}
+
+.Footer{
+    margin: 10px;
+}
