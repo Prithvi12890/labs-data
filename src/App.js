@@ -6,7 +6,7 @@ import {
   Route,
   Link,
 } from "react-router-dom";
-import Header from './my-components/Header';
+// import Header from './my-components/Header';
 import LabCards from './my-components/LabCards';
 import ExpCards from './my-components/ExpCards';
 import Footer from './my-components/Footer';
@@ -14,10 +14,10 @@ import Footer from './my-components/Footer';
 
 function App() {
   const navButtons = [
-      {name: "Home", link:"/home"},
-      {name: "Labs", link:"/home"},
-      {name: "Contribute", link:"/home"},
-      {name: "About", link:"/home"},
+      {name: "Home", link:"/labs-data/home"},
+      {name: "Labs", link:"/labs-data/home"},
+      {name: "Contribute", link:"/labs-data/home"},
+      {name: "About", link:"/labs-data/home"},
   ];
   const dspExpData = [
       {title:"Experiment 1", id: "tab-1", code:"sdf", pdfLink: "http://prithvi12890.github.io/labs-data/pdfs/dsp/record/exp1.pdf", outputs:"http://prithvi12890.github.io/labs-data/pdfs/dsp/outputs/exp1.pdf"},
@@ -65,11 +65,12 @@ function App() {
             {/* <Header/> */}
 
             <Routes>
-                <Route path="/" element={<LabCards/>} />
-                <Route path="/home" element={<LabCards/>} />
-                <Route path="/home/dsp" element={<ExpCards expData={dspExpData}/>} />
-                <Route path="/home/mc" element={<ExpCards expData={mcExpData}/>} />
-                <Route path="/home/mwe" element={<ExpCards expData={mweExpData}/>} />
+                <Route path="/labs-data" element={<LabCards/>} />
+                <Route path="/labs-data/home" element={<LabCards/>} />
+                <Route path="/labs-data/home/dsp" element={<ExpCards expData={dspExpData}/>} />
+                <Route path="/labs-data/home/mc" element={<ExpCards expData={mcExpData}/>} />
+                <Route path="/labs-data/home/mwe" element={<ExpCards expData={mweExpData}/>} />
+                <Route path="*" element={<p>404</p>} />
             </Routes>
 
         </BrowserRouter>
