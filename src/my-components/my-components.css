@@ -10,3 +10,9 @@
     min-height: 25vh;
     min-width: 100vh;
 }
+
+.error-page{
+    text-align: center;
+    padding-top: 35%;
+    min-height: 80vh;
+}
