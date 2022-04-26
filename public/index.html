@@ -39,5 +39,25 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <div id="small-screen"><h1>Switch to <br/><br/>Desktop 💻 <br/><br/>to continue</h1></div>
   </body>
+
+  <style>
+    @media screen and (max-width: 600px) {
+      body{
+        background: none;
+        background-color: antiquewhite;
+
+      }
+      #root{
+        display: none;
+      }
+      #small-screen{
+        display: block;
+        min-height: 100vh;
+        margin-top: 50%;
+      }
+    }
+  </style>
+
 </html>
