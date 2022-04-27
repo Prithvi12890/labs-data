@@ -1,21 +1,24 @@
 .nav-bar{
+    width: 100%;
     display: flex;
-    list-style: none;
-    /* position: absolute; */
-    justify-content: center;
-    /* right: 0; */
-    margin-right: 15px;
-    margin-top: 5px;
-    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
     position: fixed;
     top: 0;
-    width: 100%;
 }
 
-.nav-bar li{
-    margin: 2px;
-    margin-right: 15px;
-    padding: 5px;
+.nav-list{
+    display: flex;
+    list-style-type: none;
+    gap: 1.5rem;
+    padding-right: 1rem;
+}
+
+.nav-bar h3{
+    padding-left: 1rem;
+    flex-grow: 1;
 }
 
 .link-style{

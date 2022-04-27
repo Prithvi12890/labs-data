@@ -3,7 +3,7 @@ function Footer(){
     return (
         <div className="Footer">
             <p>
-                Share content to upload or suggestion using this link (google form)
+                Share content to upload or suggestion using this link (WhatsApp DM)
             </p>
             <hr />
             <p>
