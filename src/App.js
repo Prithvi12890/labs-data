@@ -46,8 +46,8 @@ function App() {
   ];
   const mweExpData = [
     {title:"Lab Manual", id: "tab-0", code:"sdf", pdfLink: "http://prithvi12890.github.io/lab-data/pdfs/mwe/lab-manual.pdf", outputs:"http://prithvi12890.github.io/lab-data/pdfs/mwe/lab-manual.pdf"},
-    {title:"V.S.W.R. Measurement", id: "tab-1", code:"sdf", pdfLink: "http://prithvi12890.github.io/lab-data/pdfs/mwe/record/vswr.pdf", outputs:"http://prithvi12890.github.io/lab-data/pdfs/mwe/outputs/vswr.pdf"},
-    {title:"Wavelength & Freq Measurement", id: "tab-2", code:"sdf", pdfLink: "http://prithvi12890.github.io/lab-data/pdfs/mwe/record/waveFreq.pdf", outputs:"http://prithvi12890.github.io/lab-data/pdfs/mwe/outputs/waveFreq.pdf"},
+    {title:"V.S.W.R.", id: "tab-1", code:"sdf", pdfLink: "http://prithvi12890.github.io/lab-data/pdfs/mwe/record/vswr.pdf", outputs:"http://prithvi12890.github.io/lab-data/pdfs/mwe/outputs/vswr.pdf"},
+    {title:"Wavelength & Freq", id: "tab-2", code:"sdf", pdfLink: "http://prithvi12890.github.io/lab-data/pdfs/mwe/record/waveFreq.pdf", outputs:"http://prithvi12890.github.io/lab-data/pdfs/mwe/outputs/waveFreq.pdf"},
     {title:"Reflex Klystron", id: "tab-3", code:"sdf", pdfLink: "http://prithvi12890.github.io/lab-data/pdfs/mwe/record/klystron.pdf", outputs:"http://prithvi12890.github.io/lab-data/pdfs/mwe/outputs/klystron.pdf"},
     // {title:"Experiment 4", id: "tab-4", code:"sdf", pdfLink: "http://prithvi12890.github.io/lab-data/pdfs/mwe/record/exp4.pdf", outputs:"http://prithvi12890.github.io/lab-data/pdfs/mwe/outputs/exp4.pdf"},
     // {title:"Experiment 5", id: "tab-5", code:"sdf", pdfLink: "http://prithvi12890.github.io/lab-data/pdfs/mwe/record/exp5.pdf", outputs:"http://prithvi12890.github.io/lab-data/pdfs/mwe/outputs/exp5.pdf"},
