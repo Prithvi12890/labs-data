@@ -1,4 +1,5 @@
 import '../styles/ExpCards.css';
+import React from 'react';
 
 function ExpCards(props) {
     const expData = props.expData;
