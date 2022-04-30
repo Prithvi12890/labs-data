@@ -1,0 +1,11 @@
+/* Error Page css file */
+.error-page {
+    text-align: center;
+    padding-top: 35%;
+    min-height: 80vh;
+}
+
+.error-page h2 code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}

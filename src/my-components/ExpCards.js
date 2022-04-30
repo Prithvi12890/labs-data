@@ -1,15 +1,15 @@
-import './ExpCards.css'
+import '../styles/ExpCards.css';
 
-function ExpCards(props){
+function ExpCards(props) {
     const expData = props.expData;
-    return(
+    return (
         <div class="wrapper">
 
             <h1>Experiments</h1>
 
-            {expData.map((data) => 
+            {expData.map((data) =>
                 <div class="wrap-1">
-                    <input type="radio" id={data.id} name="tabs"/>
+                    <input type="radio" id={data.id} name="tabs" />
                     <label for={data.id}><div>{data.title}</div><div class="cross"></div></label>
                     <div class="content">
                         <a href={data.pdfLink} target={'_blank'} rel={'noreferrer'}>record pdf</a>

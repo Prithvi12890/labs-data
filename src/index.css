@@ -1,37 +1,34 @@
-/* @import url(https://fonts.googleapis.com/css?family=Space+Grotesk); */
+@import url(https://fonts.googleapis.com/css?family=Space+Grotesk);
 
-body {
+*,*::after ,*::before{
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  box-sizing: border-box;
+}
+::-webkit-scrollbar{
+  width: 0;
+}
+body {
+  font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
-  /* color: #fff; */
   background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
   background-size: 400% 400%;
-  animation: change 10s ease-in-out infinite;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
-#small-screen{
-  text-align: center;
-  display: none;
+  animation: change 12s ease-in-out infinite;
 }
 
 @keyframes change {
-  0%{
-      background-position: 0 10%;
+  0% {
+    background-position: 0 10%;
   }
-  50%{
-      background-position: 90% 10%;
+
+  50% {
+    background-position: 90% 10%;
   }
-  100%{
-      background-position: 0 10%;
+
+  100% {
+    background-position: 0 10%;
   }
 }
