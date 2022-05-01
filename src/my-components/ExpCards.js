@@ -12,8 +12,8 @@ function ExpCards(props){
                     <input type="radio" id={data.id} name="tabs"/>
                     <label for={data.id}><div>{data.title}</div><div class="cross"></div></label>
                     <div class="content">
-                    <iframe src={data.record} width="100%" height="500px" title={data.title}/>
-                    <iframe src={data.outputs} width="100%" height="500px" title={data.title}/><br />
+                        <a href={data.pdfLink}  rel={'enclosure'}>record pdf</a>
+                        <a href={data.outputs}  rel={'enclosure'}>outputs pdf</a> <br />
                     </div>
                 </div>
             )}
