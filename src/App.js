@@ -61,7 +61,7 @@ function App() {
     <div className="App">
         <BrowserRouter>
           <div className='nav-bar'>
-            <h3>LABS</h3>
+            <h3><a href="/labs-data/home">LABS</a></h3>
             <ul className="nav-list">
                 {navButtons.map((navButton) => <li><Link className="link-style" to={navButton.link}>{navButton.name}</Link></li>)}
             </ul>

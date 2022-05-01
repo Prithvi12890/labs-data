@@ -12,7 +12,7 @@ function ExpCards(props){
                     <input type="radio" id={data.id} name="tabs"/>
                     <label for={data.id}><div>{data.title}</div><div class="cross"></div></label>
                     <div class="content">
-                        <a href={data.pdfLink} target='_blank' rel='noreferrer' type="application/pdf" >record pdf</a>
+                        <a href={data.pdfLink} target='_blank' rel='noreferrer' type="application/pdf" >record pdf</a> <br/><br/>
                         <a href={data.outputs} target='_blank' rel='noreferrer' type="application/pdf">outputs pdf</a> <br />
                     </div>
                 </div>

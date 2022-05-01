@@ -19,11 +19,6 @@ code {
     monospace;
 }
 
-#small-screen{
-  text-align: center;
-  display: none;
-}
-
 @keyframes change {
   0%{
       background-position: 0 10%;
