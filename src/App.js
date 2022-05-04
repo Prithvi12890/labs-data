@@ -16,9 +16,9 @@ import Footer from './my-components/Footer';
 function App() {
   const navButtons = [
       {name: "Home", link:"/labs-data/home"},
-      {name: "Labs", link:"/labs-data/home"},
-      {name: "Contribute", link:"/labs-data/home"},
-      {name: "About", link:"/labs-data/home"},
+      {name: "DSP", link:"/labs-data/home/dsp"},
+      {name: "MC", link:"/labs-data/home/mc"},
+      {name: "MWE", link:"/labs-data/home/mwe"},
   ];
   const dspExpData = [
       {title:"Experiment 1", id: "tab-1", code:"sdf", pdfLink: "https://prithvi12890.github.io/lab-data/pdfs/dsp/record/exp1.pdf", outputs:"https://prithvi12890.github.io/lab-data/pdfs/dsp/outputs/exp1.pdf"},
