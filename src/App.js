@@ -60,7 +60,9 @@ function App() {
     // {title:"Experiment 10", id: "tab-10", code:"sdf", pdfLink: "https://prithvi12890.github.io/lab-data/pdfs/mwe/record/exp10.pdf", outputs:"https://prithvi12890.github.io/lab-data/pdfs/mwe/outputs/exp10.pdf"},
   ];
   const assignments = [
-    {title:"MC Assignment 2", id: "tab-0", pdfLink: "https://prithvi12890.github.io/lab-data/pdfs/others/mc-assignment-2.pdf"},
+    {title:"VI Sem Syllabus", id: "tab-0", pdfLink: "https://prithvi12890.github.io/lab-data/pdfs/others/6-sem-syllabus.pdf"},
+    {title:"MC Notes", id: "tab-1", pdfLink: "https://prithvi12890.github.io/lab-data/pdfs/others/mc-notes.pdf"},
+    {title:"MC Assignment 2", id: "tab-2", pdfLink: "https://prithvi12890.github.io/lab-data/pdfs/others/mc-assignment-2.pdf"},
   ];
   return (
     <div className="App">
