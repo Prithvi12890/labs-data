@@ -9,6 +9,7 @@ import {
 // import Header from './my-components/Header';
 import LabCards from './my-components/LabCards';
 import ExpCards from './my-components/ExpCards';
+import OtherCards from './my-components/OtherCards';
 import ErrorPage from './my-components/ErrorPage';
 import Footer from './my-components/Footer';
 
@@ -19,6 +20,7 @@ function App() {
       {name: "DSP", link:"/labs-data/home/dsp"},
       {name: "MC", link:"/labs-data/home/mc"},
       {name: "MWE", link:"/labs-data/home/mwe"},
+      {name: "MWE", link:"/labs-data/home/assignments"},
   ];
   const dspExpData = [
       {title:"Experiment 1", id: "tab-1", code:"sdf", pdfLink: "https://prithvi12890.github.io/lab-data/pdfs/dsp/record/exp1.pdf", outputs:"https://prithvi12890.github.io/lab-data/pdfs/dsp/outputs/exp1.pdf"},
@@ -57,6 +59,9 @@ function App() {
     // {title:"Experiment 9", id: "tab-9", code:"sdf", pdfLink: "https://prithvi12890.github.io/lab-data/pdfs/mwe/record/exp9.pdf", outputs:"https://prithvi12890.github.io/lab-data/pdfs/mwe/outputs/exp9.pdf"},
     // {title:"Experiment 10", id: "tab-10", code:"sdf", pdfLink: "https://prithvi12890.github.io/lab-data/pdfs/mwe/record/exp10.pdf", outputs:"https://prithvi12890.github.io/lab-data/pdfs/mwe/outputs/exp10.pdf"},
   ];
+  const assignments = [
+    {title:"MC Assignment 2", id: "tab-0", pdfLink: "https://prithvi12890.github.io/lab-data/pdfs/others/mc-assignment-2.pdf"},
+  ];
   return (
     <div className="App">
         <BrowserRouter>
@@ -75,6 +80,7 @@ function App() {
                 <Route path="/labs-data/home/dsp" element={<ExpCards expData={dspExpData}/>} />
                 <Route path="/labs-data/home/mc" element={<ExpCards expData={mcExpData}/>} />
                 <Route path="/labs-data/home/mwe" element={<ExpCards expData={mweExpData}/>} />
+                <Route path="/labs-data/home/assignments" element={<OtherCards data={assignments}/>} />
                 <Route path="*" element={<ErrorPage/>} />
             </Routes>
 
