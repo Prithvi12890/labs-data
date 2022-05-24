@@ -53,9 +53,10 @@ function App() {
     {title:"Dir Coupler", id: "tab-5", code:"sdf", pdfLink: "https://prithvi12890.github.io/lab-data/pdfs/mwe/record/directional-coupler.pdf", outputs:"https://prithvi12890.github.io/lab-data/pdfs/mwe/outputs/directional-coupler.pdf"},
     {title:"Impedance", id: "tab-6", code:"sdf", pdfLink: "https://prithvi12890.github.io/lab-data/pdfs/mwe/record/impedance-measurement.pdf", outputs:"https://prithvi12890.github.io/lab-data/pdfs/mwe/outputs/impedance-measurement.pdf"},
     {title:"Magic Tee", id: "tab-7", code:"sdf", pdfLink: "https://prithvi12890.github.io/lab-data/pdfs/mwe/record/magic-tee.pdf", outputs:"https://prithvi12890.github.io/lab-data/pdfs/mwe/outputs/magic-tee.pdf"},
-    // {title:"Experiment 8", id: "tab-8", code:"sdf", pdfLink: "https://prithvi12890.github.io/lab-data/pdfs/mwe/record/exp8.pdf", outputs:"https://prithvi12890.github.io/lab-data/pdfs/mwe/outputs/exp8.pdf"},
-    // {title:"Experiment 9", id: "tab-9", code:"sdf", pdfLink: "https://prithvi12890.github.io/lab-data/pdfs/mwe/record/exp9.pdf", outputs:"https://prithvi12890.github.io/lab-data/pdfs/mwe/outputs/exp9.pdf"},
-    // {title:"Experiment 10", id: "tab-10", code:"sdf", pdfLink: "https://prithvi12890.github.io/lab-data/pdfs/mwe/record/exp10.pdf", outputs:"https://prithvi12890.github.io/lab-data/pdfs/mwe/outputs/exp10.pdf"},
+    {title:"Circulator", id: "tab-8", code:"sdf", pdfLink: "https://prithvi12890.github.io/lab-data/pdfs/mwe/record/circulator.pdf", outputs:"https://prithvi12890.github.io/lab-data/pdfs/mwe/outputs/circulator.pdf"},
+    {title:"Horn Antenna", id: "tab-9", code:"sdf", pdfLink: "https://prithvi12890.github.io/lab-data/pdfs/mwe/record/horn-antenna.pdf", outputs:"https://prithvi12890.github.io/lab-data/pdfs/mwe/outputs/horn-antenna.pdf"},
+    {title:"Study Exp", id: "tab-10", code:"sdf", pdfLink: "https://prithvi12890.github.io/lab-data/pdfs/mwe/record/various-antennas.pdf", outputs:"https://prithvi12890.github.io/lab-data/pdfs/mwe/outputs/various-antennas.pdf"},
+    {title:"MWE record", id: "tab-10", code:"sdf", pdfLink: "https://prithvi12890.github.io/lab-data/pdfs/mwe/record/complete-record.pdf", outputs:"https://prithvi12890.github.io/lab-data/pdfs/mwe/outputs/complete-record.pdf"},
   ];
   return (
     <div className="App">
