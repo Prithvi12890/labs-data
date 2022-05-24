@@ -56,7 +56,7 @@ function App() {
     {title:"Circulator", id: "tab-8", code:"sdf", pdfLink: "https://prithvi12890.github.io/lab-data/pdfs/mwe/record/circulator.pdf", outputs:"https://prithvi12890.github.io/lab-data/pdfs/mwe/outputs/circulator.pdf"},
     {title:"Horn Antenna", id: "tab-9", code:"sdf", pdfLink: "https://prithvi12890.github.io/lab-data/pdfs/mwe/record/horn-antenna.pdf", outputs:"https://prithvi12890.github.io/lab-data/pdfs/mwe/outputs/horn-antenna.pdf"},
     {title:"Study Exp", id: "tab-10", code:"sdf", pdfLink: "https://prithvi12890.github.io/lab-data/pdfs/mwe/record/various-antennas.pdf", outputs:"https://prithvi12890.github.io/lab-data/pdfs/mwe/outputs/various-antennas.pdf"},
-    {title:"MWE record", id: "tab-10", code:"sdf", pdfLink: "https://prithvi12890.github.io/lab-data/pdfs/mwe/record/complete-record.pdf", outputs:"https://prithvi12890.github.io/lab-data/pdfs/mwe/outputs/complete-record.pdf"},
+    {title:"MWE record", id: "tab-10", code:"sdf", pdfLink: "https://prithvi12890.github.io/lab-data/pdfs/mwe/record/complete-record.pdf", outputs:"https://prithvi12890.github.io/lab-data/pdfs/mwe/outputs/complete-recorr.pdf"},
   ];
   return (
     <div className="App">
