@@ -27,10 +27,11 @@ function App() {
       {title:"Experiment 4", id: "tab-4", code:"sdf", pdfLink: "https://prithvi12890.github.io/lab-data/pdfs/dsp/record/exp4.pdf", outputs:"https://prithvi12890.github.io/lab-data/pdfs/dsp/outputs/exp4.pdf"},
       {title:"Experiment 5", id: "tab-5", code:"sdf", pdfLink: "https://prithvi12890.github.io/lab-data/pdfs/dsp/record/exp5.pdf", outputs:"https://prithvi12890.github.io/lab-data/pdfs/dsp/outputs/exp5.pdf"},
       {title:"Experiment 6", id: "tab-6", code:"sdf", pdfLink: "https://prithvi12890.github.io/lab-data/pdfs/dsp/record/exp6.pdf", outputs:"https://prithvi12890.github.io/lab-data/pdfs/dsp/outputs/exp6.pdf"},
-      {title:"Experiment 7", id: "tab-7", code:"sdf", pdfLink: "https://prithvi12890.github.io/lab-data/pdfs/dsp/record/exp7.pdf", outputs:"https://prithvi12890.github.io/lab-data/pdfs/dsp/outputs/exp7.pdf"},
-      {title:"Experiment 8", id: "tab-8", code:"sdf", pdfLink: "https://prithvi12890.github.io/lab-data/pdfs/dsp/record/exp8.pdf", outputs:"https://prithvi12890.github.io/lab-data/pdfs/dsp/outputs/exp8.pdf"},
-      {title:"Experiment 9", id: "tab-9", code:"sdf", pdfLink: "https://prithvi12890.github.io/lab-data/pdfs/dsp/record/exp9.pdf", outputs:"https://prithvi12890.github.io/lab-data/pdfs/dsp/outputs/exp9.pdf"},
-      {title:"Experiment 10", id: "tab-10", code:"sdf", pdfLink: "https://prithvi12890.github.io/lab-data/pdfs/dsp/record/exp10.pdf", outputs:"https://prithvi12890.github.io/lab-data/pdfs/dsp/outputs/exp10.pdf"},
+      {title:"Cycle 2 Intro", id: "tab-7", code:"sdf", pdfLink: "https://prithvi12890.github.io/lab-data/pdfs/dsp/record/cycle2-intro.pdf", outputs:"https://prithvi12890.github.io/lab-data/pdfs/dsp/outputs/exp7.pdf"},
+      {title:"Experiment 7", id: "tab-8", code:"sdf", pdfLink: "https://prithvi12890.github.io/lab-data/pdfs/dsp/record/exp7.pdf", outputs:"https://prithvi12890.github.io/lab-data/pdfs/dsp/outputs/exp7.pdf"},
+      {title:"Experiment 8", id: "tab-9", code:"sdf", pdfLink: "https://prithvi12890.github.io/lab-data/pdfs/dsp/record/exp8.pdf", outputs:"https://prithvi12890.github.io/lab-data/pdfs/dsp/outputs/exp8.pdf"},
+      {title:"Experiment 9", id: "tab-10", code:"sdf", pdfLink: "https://prithvi12890.github.io/lab-data/pdfs/dsp/record/exp9.pdf", outputs:"https://prithvi12890.github.io/lab-data/pdfs/dsp/outputs/exp9.pdf"},
+      {title:"Experiment 10", id: "tab-11", code:"sdf", pdfLink: "https://prithvi12890.github.io/lab-data/pdfs/dsp/record/exp10.pdf", outputs:"https://prithvi12890.github.io/lab-data/pdfs/dsp/outputs/exp10.pdf"},
   ];
   const mcExpData = [
       {title:"Experiment 1", id: "tab-1", code:"sdf", pdfLink: "https://prithvi12890.github.io/lab-data/pdfs/mc/record/exp1.pdf", outputs:"https://prithvi12890.github.io/lab-data/pdfs/mc/outputs/exp1.pdf"},
